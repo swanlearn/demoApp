@@ -1,9 +1,9 @@
-package com.example.demo
+package com.example.demo.viewModels
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class MyViewModel : ViewModel() {
+class CounterViewModel : ViewModel() {
 
     val counterMutableLiveData=MutableLiveData<Int>(0)
   //  private var counter:Int=0

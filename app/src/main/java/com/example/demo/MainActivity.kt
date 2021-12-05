@@ -1,47 +1,64 @@
 package com.example.demo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
-import androidx.appcompat.widget.AppCompatButton
-import androidx.appcompat.widget.AppCompatTextView
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.demo.activities.CounterActivity
+import com.example.demo.activities.RegisterActivity
+import com.example.demo.databinding.SignupOneBinding
+import com.example.demo.viewModels.RegisterViewModel
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), View.OnClickListener {
 
-    lateinit var button: AppCompatButton
-    lateinit var textView2: AppCompatTextView
+    lateinit var binding: SignupOneBinding
+    lateinit var registerViewModel:RegisterViewModel
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = SignupOneBinding.inflate(LayoutInflater.from(this))
+        setContentView(binding.root)
+        binding.executePendingBindings()
 
-        button = findViewById(R.id.button)
-        textView2 = findViewById(R.id.textView2)
+        binding.btnCounter.setOnClickListener(View.OnClickListener {
 
-        val model = ViewModelProvider(this).get(MyViewModel::class.java)
-
-
-
-        button.setOnClickListener(View.OnClickListener {
-
-            model.addCounter()
-
-
-
-            model.counterMutableLiveData.observe(this, Observer {
-
-
-                textView2.text = it.toString()
-
-
-            })
-
+            startActivity(Intent(this,CounterActivity::class.java))
         })
 
+        registerViewModel= ViewModelProvider(this).get(RegisterViewModel::class.java)
+
+        val username = binding.txtName.text.toString()
+        val email = binding.txtEmail.text.toString()
+        val password = binding.txtPassword.text.toString()
+
+        registerViewModel.registerUser(username,email,password)
+
+
+
+        binding.btnRegister.setOnClickListener(this)
+
+
+
+
+    }
+
+    override fun onClick(p0: View?) {
+        registerViewModel.userMutableLiveData.observe(this  , Observer {
+
+            val bundle = Bundle()
+            bundle.putString("name", it.userName)
+            bundle.putString("password", it.password)
+            bundle.putString("email", it.email)
+
+            val intent = Intent(applicationContext, RegisterActivity::class.java)
+            startActivity(intent)
+
+        })
     }
 
 

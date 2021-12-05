@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/bg_rel">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:tint="@color/black"
+            app:srcCompat="@drawable/backk" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active Question"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_check"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:tint="@color/black"
+            app:srcCompat="@drawable/mark" />
+
+
+
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A.1"
+        android:textColor="@color/my_blue"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_line"
+        android:layout_gravity="center">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.1"
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_question_no_1"
+            android:layout_below="@id/txt_a1"
+            android:textColor="@color/my_blue"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginStart="13dp"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_score"
+            android:layout_below="@id/txt_question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_status"
+            android:textColor="@color/my_blue"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_pass"
+            android:layout_below="@id/txt_question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pass"
+           android:layout_toRightOf="@id/txt_score"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_25"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_25"
+            android:layout_toRightOf="@id/txt_question1"
+            android:textSize="20sp"
+           android:layout_centerVertical="true"
+            android:layout_marginStart="70dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_no"
+            android:textColor="@color/my_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:layout_toEndOf="@id/txt_25"
+            android:layout_marginTop="50dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="13dp"
+            app:srcCompat="@drawable/group" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgsad"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+           android:layout_marginTop="30dp"
+            android:layout_marginEnd="24dp"
+            app:srcCompat="@drawable/sad" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgscore"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="27dp"
+            app:srcCompat="@drawable/score" />
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_line"
+        android:layout_gravity="center">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.1"
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_a2"
+            android:layout_marginLeft="13dp"
+            android:text="2. Question No.1.1"
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_score2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_question2"
+            android:layout_marginLeft="25dp"
+            android:text="score  "
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_pass2"
+            android:layout_below="@id/txt_question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_toRightOf="@id/txt_score2"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_252"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/txt_question2"
+            android:text="25"
+            android:textSize="20dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_no2"
+            android:textColor="@color/my_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/txt_252"
+            android:layout_marginTop="50dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            app:srcCompat="@drawable/ellipse" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img2question"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            app:srcCompat="@drawable/question" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_line"
+        android:layout_gravity="center">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.1"
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_a3"
+            android:layout_marginLeft="13dp"
+            android:text="3. Question No.2"
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_score3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_question3"
+            android:layout_marginLeft="25dp"
+            android:text="score  "
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_pass3"
+            android:layout_below="@id/txt_question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_toRightOf="@id/txt_score3"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_253"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/txt_question3"
+            android:text="25"
+            android:textSize="20dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_no3"
+            android:textColor="@color/my_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/txt_253"
+            android:layout_marginTop="50dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            app:srcCompat="@drawable/padlock1" />
+
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A.2"
+        android:textColor="@color/my_blue"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="20dp"
+        />
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_line"
+        android:layout_gravity="center">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.2"
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_a4"
+            android:layout_marginLeft="13dp"
+            android:text="3. Question No.2"
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_score4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_question4"
+            android:layout_marginLeft="25dp"
+            android:text="score  "
+            android:textColor="@color/my_blue"
+            android:textSize="20dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_pass4"
+            android:layout_below="@id/txt_question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_toRightOf="@id/txt_score4"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_254"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/txt_question4"
+            android:text="25"
+            android:textSize="20dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_no4"
+            android:textColor="@color/my_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/txt_254"
+            android:layout_marginTop="50dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            app:srcCompat="@drawable/padlock1" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

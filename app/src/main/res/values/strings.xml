@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">demo</string>
+    <string name="register">register</string>
+    <string name="type_user">Type Phone Number and\n Password to continue</string>
+    <string name="please_enter">Please enter the code was sent in \n your phone number</string>
+    <string name="no">No</string>
+    <string name="_25">25</string>
+    <string name="pass">Pass</string>
+    <string name="score_status">score status</string>
+    <string name="_1_question_no_1">1. Question No.1</string>
 </resources>
