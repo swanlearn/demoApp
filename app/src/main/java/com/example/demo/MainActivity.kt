@@ -27,7 +27,10 @@ class MainActivity : AppCompatActivity() {
 
 
         button.setOnClickListener(View.OnClickListener {
+
             model.addCounter()
+
+
 
             model.counterMutableLiveData.observe(this, Observer {
 
