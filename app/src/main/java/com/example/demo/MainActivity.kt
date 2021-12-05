@@ -19,25 +19,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button = findViewById(R.id.button)
-        textView2 = findViewById(R.id.textView2)
-
-        val model = ViewModelProvider(this).get(MyViewModel::class.java)
-
-
-
-        button.setOnClickListener(View.OnClickListener {
-            model.addCounter()
-
-            model.counterMutableLiveData.observe(this, Observer {
-
-
-                textView2.text = it.toString()
-
-
-            })
-
-        })
 
     }
 
