@@ -11,31 +11,28 @@ import androidx.lifecycle.ViewModelProvider
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var button:AppCompatButton
-    lateinit var textView2:AppCompatTextView
-
-
+    lateinit var button: AppCompatButton
+    lateinit var textView2: AppCompatTextView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button=findViewById(R.id.button)
-        textView2=findViewById(R.id.textView2)
+        button = findViewById(R.id.button)
+        textView2 = findViewById(R.id.textView2)
 
-        val model= ViewModelProvider(this).get(MyViewModel::class.java)
+        val model = ViewModelProvider(this).get(MyViewModel::class.java)
 
-        model.addCounter()
+
 
         button.setOnClickListener(View.OnClickListener {
-
+            model.addCounter()
 
             model.counterMutableLiveData.observe(this, Observer {
 
 
-                textView2.text= it.toString()
-
+                textView2.text = it.toString()
 
 
             })
