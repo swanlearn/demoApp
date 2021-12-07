@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="44dp"
             android:background="@drawable/bg_txt"
-            android:paddingRight="55dp"
+            android:paddingEnd="55dp"
             android:paddingBottom="35dp"
             app:layout_constraintEnd_toEndOf="@+id/imageView2"
             app:layout_constraintHorizontal_bias="0.495"
@@ -43,7 +43,7 @@
                 android:layout_marginTop="70dp"
                 android:text="@string/register"
                 android:textColor="@color/black"
-                android:textSize="40dp"
+                android:textSize="@dimen/title_text_size"
                 android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageView
@@ -113,11 +113,14 @@
 
         </RelativeLayout>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_counter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Go to Counter Activity"
+            android:text="Go to Calculator"
+            android:textColor="@color/white"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
             android:background="@drawable/bg_btn"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

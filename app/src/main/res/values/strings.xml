@@ -8,4 +8,7 @@
     <string name="pass">Pass</string>
     <string name="score_status">score status</string>
     <string name="_1_question_no_1">1. Question No.1</string>
+    <string name="calculator">Simple Calculator</string>
+    <string name="enter_first_number">Enter first number</string>
+    <string name="enter_second_number">Enter second number</string>
 </resources>

@@ -10,17 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Demo">
         <activity
-            android:name=".activities.CounterActivity"
+            android:name=".calculator.CalculatorActivity"
             android:exported="false" />
 
-
+        <activity
+            android:name=".activities.CounterActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

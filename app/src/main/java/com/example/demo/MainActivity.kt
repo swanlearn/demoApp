@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.demo.activities.CounterActivity
 import com.example.demo.activities.RegisterActivity
+import com.example.demo.calculator.CalculatorActivity
 import com.example.demo.databinding.SignupOneBinding
 import com.example.demo.viewModels.RegisterViewModel
 
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         binding.btnCounter.setOnClickListener(View.OnClickListener {
 
-            startActivity(Intent(this,CounterActivity::class.java))
+            startActivity(Intent(this,CalculatorActivity::class.java))
         })
 
         registerViewModel= ViewModelProvider(this).get(RegisterViewModel::class.java)
