@@ -9,7 +9,7 @@ class NumbersViewModel : ViewModel() {
 
     var numbersMutableLiveData = MutableLiveData<Numbers>()
 
-    fun plusNumbers(numbers: Numbers){
+    fun getNumbers(numbers: Numbers){
 
         numbers.let {
             numbersMutableLiveData.value=it
