@@ -130,6 +130,7 @@ class CalculatorActivity : AppCompatActivity() {
                 numbersViewModel.numbersMutableLiveData.observe(this, Observer {
 
                     it.let {
+                        binding.txtResultTitle.visibility=View.VISIBLE
                         binding.txtResult.text = (it.firstNumber + it.secondNumber).toString()
                     }
                 })
@@ -151,6 +152,7 @@ class CalculatorActivity : AppCompatActivity() {
                 numbersViewModel.numbersMutableLiveData.observe(this, Observer {
 
                     it.let {
+                        binding.txtResultTitle.visibility=View.VISIBLE
                         binding.txtResult.text = (it.firstNumber - it.secondNumber).toString()
                     }
                 })
@@ -172,6 +174,7 @@ class CalculatorActivity : AppCompatActivity() {
                 numbersViewModel.numbersMutableLiveData.observe(this, Observer {
 
                     it.let {
+                        binding.txtResultTitle.visibility=View.VISIBLE
                         binding.txtResult.text = (it.firstNumber / it.secondNumber).toString()
                     }
                 })
@@ -193,6 +196,7 @@ class CalculatorActivity : AppCompatActivity() {
                 numbersViewModel.numbersMutableLiveData.observe(this, Observer {
 
                     it.let {
+                        binding.txtResultTitle.visibility=View.VISIBLE
                         binding.txtResult.text = (it.firstNumber * it.secondNumber).toString()
                     }
                 })
