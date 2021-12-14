@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
-        <entry key="..\:/Projects/github/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/morteza/AndroidStudioProjects/demo/app/src/main/res/layout/activity_main.xml" value="0.19" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/drawable/bg_button_gradient.xml" value="0.23116883116883116" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/drawable/bg_item_rv_active_step_circle.xml" value="0.27384615384615385" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/drawable/bg_toolbar.xml" value="0.19537037037037036" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/drawable/item_rv_active_step.xml" value="0.27384615384615385" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/layout/activity_active_lesson.xml" value="0.264" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/layout/activity_home.xml" value="0.2206140350877193" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/layout/activity_main.xml" value="0.26197916666666665" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/layout/activity_result.xml" value="0.2206140350877193" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/layout/item_rv_active_lesson.xml" value="0.2206140350877193" />
+        <entry key="..\:/dev/workspace/Work2/app/src/main/res/layout/item_rv_active_step.xml" value="0.264" />
       </map>
     </option>
   </component>
