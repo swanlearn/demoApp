@@ -7,16 +7,17 @@ import android.view.View
 import android.widget.PopupWindow
 import androidx.appcompat.app.AlertDialog
 import com.example.demo.R
-import com.example.demo.databinding.BuyersBinding
+import com.example.demo.databinding.ActivityBuyersBinding
+
 
 class BuyersActivity : AppCompatActivity() {
 
-    lateinit var binding:BuyersBinding
+    lateinit var binding:ActivityBuyersBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding= BuyersBinding.inflate(LayoutInflater.from(this))
+        binding= ActivityBuyersBinding.inflate(LayoutInflater.from(this))
         setContentView(binding.root)
 
         /**
