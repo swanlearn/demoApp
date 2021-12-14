@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.demo.activities.BuyersActivity
 import com.example.demo.activities.CounterActivity
 import com.example.demo.activities.RegisterActivity
 import com.example.demo.calculator.CalculatorActivity
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         binding.btnCounter.setOnClickListener(View.OnClickListener {
 
-            startActivity(Intent(this,CalculatorActivity::class.java))
+            startActivity(Intent(this,BuyersActivity::class.java))
         })
 
         registerViewModel= ViewModelProvider(this).get(RegisterViewModel::class.java)

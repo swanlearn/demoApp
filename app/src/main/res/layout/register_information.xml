@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_register_info_header">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/popup" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/register_info"
+            android:textColor="@color/white"
+            android:textSize="26dp" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/bac"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_btn_buyers_invers"
+            android:fontFamily="@font/iransanse"
+            android:padding="10dp"
+            android:text="@string/new_record"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_btn_buyers"
+            android:fontFamily="@font/iransanse"
+            android:padding="10dp"
+            android:text="@string/register_changes"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_cow_types"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/cow_types"
+            android:textColor="@color/popup_buyer"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_cow_milky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iransanse"
+            android:textStyle="bold"
+            android:text="@string/milky"
+            android:layout_below="@id/txt_cow_types"
+            android:layout_marginStart="250dp"
+
+            android:textColor="@color/popup_buyer"
+            android:textSize="20sp" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_empty_circle"
+            app:srcCompat="@id/img_empty_circle"
+            android:layout_below="@id/txt_cow_types"
+           android:layout_marginLeft="240dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_cow_unmilky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iransanse"
+            android:textStyle="bold"
+            android:text="@string/unmilky"
+            android:layout_below="@id/txt_cow_types"
+
+
+           android:layout_marginLeft="100dp"
+            android:textColor="@color/popup_buyer"
+            android:textSize="20sp" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_full_circle"
+            app:srcCompat="@id/img_full_circle"
+            android:layout_below="@id/txt_cow_types"
+            android:layout_marginLeft="90dp"/>
+
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_txt"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/saloon_name"
+        android:fontFamily="@font/iransanse"
+        android:textColor="@color/popup_buyer"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textAlignment="textStart"
+        tools:ignore="RtlCompat" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_txt"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/cows"
+        android:fontFamily="@font/iransanse"
+        android:textColor="@color/popup_buyer"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textAlignment="textStart"
+        tools:ignore="RtlCompat" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_txt"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/saloon_number"
+        android:fontFamily="@font/iransanse"
+        android:textColor="@color/popup_buyer"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textAlignment="textStart"
+        tools:ignore="RtlCompat" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_txt"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/number_of_cows"
+        android:fontFamily="@font/iransanse"
+        android:textColor="@color/popup_buyer"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textAlignment="textStart"
+        tools:ignore="RtlCompat" />
+    <androidx.appcompat.widget.AppCompatTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+       android:layout_marginTop="15dp"
+        android:fontFamily="@font/iransanse"
+        android:text="@string/food_selection"
+        android:textColor="@color/popup_buyer"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!--<androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+
+        android:background="@drawable/bg_txt"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:hint="@string/select"
+        android:fontFamily="@font/iransanse"
+        android:textColor="@color/popup_buyer"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textAlignment="textStart"
+        tools:ignore="RtlCompat" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bg_txt"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp">
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/select"
+
+            android:textSize="26dp" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/select"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

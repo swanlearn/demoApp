@@ -3,19 +3,43 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_active_lesson_header.xml" value="0.25833333333333336" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_btn.xml" value="0.25435897435897437" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_btn_buyers.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_btn_buyers_invers.xml" value="0.25833333333333336" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_btn_clear.xml" value="0.25435897435897437" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_buyers.xml" value="0.2490740740740741" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_cow_rel.xml" value="0.25833333333333336" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_line.xml" value="0.25435897435897437" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_linear_layout.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_player.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_popup_buyers.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_register_info_header.xml" value="0.25833333333333336" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_rel.xml" value="0.25435897435897437" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_rel_field_management.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_rel_field_management_inverse.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_rel_test.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_txt.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_txt_numbers.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_txt_numbers_blue.xml" value="0.25833333333333336" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/bg_txt_test.xml" value="0.25833333333333336" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.25435897435897437" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/drawable/oval_background.xml" value="0.25435897435897437" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/active_lesson.xml" value="0.21739130434782608" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/active_question.xml" value="0.264" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/activity_buyers.xml" value="0.21739130434782608" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/activity_calculator.xml" value="0.2" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/activity_counter.xml" value="0.11778115501519756" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/activity_register.xml" value="0.11778115501519756" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/buyers.xml" value="0.176" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/cow.xml" value="0.21739130434782608" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/fiald_management.xml" value="0.21739130434782608" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/popup_buyers.xml" value="0.21739130434782608" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/register_information.xml" value="0.176" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/signup_one.xml" value="0.11778115501519756" />
         <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/signup_two.xml" value="0.11778115501519756" />
+        <entry key="..\:/MyOriginalProjects/demoApp/app/src/main/res/layout/test.xml" value="0.21739130434782608" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/demo/app/src/main/res/layout/activity_main.xml" value="0.19" />
       </map>
     </option>
