@@ -45,4 +45,6 @@
     <string name="go_to_counter">Go To Counter</string>
     <string name="go_to_register">Go To Register</string>
     <string name="go_to_buyer">Go To Buyer</string>
+    <string name="otp">OTP</string>
+    <string name="go_to_calculator">Go To Calculator</string>
 </resources>

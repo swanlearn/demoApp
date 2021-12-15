@@ -8,6 +8,7 @@ import android.view.View
 import com.example.demo.activities.BuyersActivity
 import com.example.demo.activities.CounterActivity
 import com.example.demo.activities.RegisterActivity
+import com.example.demo.calculator.CalculatorActivity
 import com.example.demo.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
@@ -31,6 +32,9 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnRegisterActivity.setOnClickListener(View.OnClickListener {
             startActivity(Intent(applicationContext,RegisterActivity::class.java))
+        })
+        binding.btnCalculatorActivity.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(applicationContext,CalculatorActivity::class.java))
         })
 
 

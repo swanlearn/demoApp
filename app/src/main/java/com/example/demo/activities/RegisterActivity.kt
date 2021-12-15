@@ -21,10 +21,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
         binding.executePendingBindings()
 
-        binding.btnCounter.setOnClickListener(View.OnClickListener {
 
-            startActivity(Intent(this,BuyersActivity::class.java))
-        })
 
         registerViewModel= ViewModelProvider(this).get(RegisterViewModel::class.java)
 
