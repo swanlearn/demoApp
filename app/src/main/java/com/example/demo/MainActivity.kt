@@ -26,8 +26,12 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        model.counter.observe(this, observer)
+        model.counter.observe(this,observer)
 
     }
+
+
+
+
 
 }
