@@ -5,9 +5,9 @@
    <!-- <solid android:color="@color/popup_buyer" />-->
     <corners android:radius="30dp" />
     <gradient
-        android:startColor="#A1AEE8"
-        android:endColor="@color/popup_buyer"
-        android:centerColor="#051688"
+        android:startColor="#63B4E9"
+        android:endColor="#3D74A5"
+        android:centerColor="#1B3966"
 
         android:type="linear"
         android:centerX="600"

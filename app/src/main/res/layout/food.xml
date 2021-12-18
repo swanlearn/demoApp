@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/rel_up"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_txt_for_food"
+            android:fontFamily="@font/iransanse"
+            android:padding="8dp"
+            android:text="@string/excel_output"
+            android:textSize="10sp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_txt_for_food"
+            android:hint="@string/search"
+            android:textSize="10sp"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:fontFamily="@font/iransanse"
+            android:layout_marginRight="8dp"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cow"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"/>
+
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/food"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/iransanse"
+        android:textColor="@color/black"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_rel_field_management_inverse"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_icon1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            app:srcCompat="@drawable/colorcow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignTop="@id/img_icon1"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/food_name"
+            android:layout_toStartOf="@id/img_icon1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_icon1"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/builder"
+            android:layout_toStartOf="@id/img_icon1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_rel_field_management_inverse"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_icon2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            app:srcCompat="@drawable/colorcow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_icon2"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/food_name"
+            android:layout_toStartOf="@id/img_icon2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_icon2"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/builder"
+            android:layout_toStartOf="@id/img_icon2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_rel_field_management_inverse"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_icon3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            app:srcCompat="@drawable/colorcow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_icon3"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/food_name"
+            android:layout_toStartOf="@id/img_icon3"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_icon3"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/builder"
+            android:layout_toStartOf="@id/img_icon3"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_rel_field_management_inverse"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_icon"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            app:srcCompat="@drawable/colorcow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_icon"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/food_name"
+            android:layout_toStartOf="@id/img_icon"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_icon"
+            android:fontFamily="@font/iransanse"
+            android:text="@string/builder"
+            android:layout_toStartOf="@id/img_icon"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

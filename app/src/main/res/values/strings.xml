@@ -47,4 +47,19 @@
     <string name="go_to_buyer">Go To Buyer</string>
     <string name="otp">OTP</string>
     <string name="go_to_calculator">Go To Calculator</string>
+    <string name="search">جستجو</string>
+    <string name="excel_output">خروجی اکسل</string>
+    <string name="food">خوراک</string>
+    <string name="food_name">نام خوراک : mix1</string>
+    <string name="mix1">نام کنستانتره : mix1</string>
+    <string name="concentrate_name">نام کنستانتره: </string>
+    <string name="builder">سازنده : محمودی</string>
+    <string name="concentrate">کنستانتره</string>
+    <string name="making_concentrate">ساخت کنستانتره</string>
+    <string name="reg_concentrate">ثبت کنستانتره</string>
+    <string name="archive_concentrate">آرشیو کنستانتره</string>
+    <string name="date"> تاریخ آخرین ویرایش :</string>
+    <string name="price">قیمت هر کیلو کنستانتره :</string>
+    <string name="edit">ویرایش</string>
+
 </resources>
