@@ -81,4 +81,12 @@ dependencies {
 
     // optional - Test helpers for LiveData
     testImplementation("androidx.arch.core:core-testing:2.1.0")
+
+    //Responsive UI
+
+    //SDP - a scalable size unit
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+    //SSP - a scalable size unit for texts
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
 }
