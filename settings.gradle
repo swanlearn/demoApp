@@ -4,7 +4,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+
+
     }
 }
-rootProject.name = "Work2"
+rootProject.name = "InstaMarket"
 include ':app'
+include ':domain'
+include ':data'

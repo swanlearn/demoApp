@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/enterFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.e.instamarket.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_moreFeatureFragment"
+            app:destination="@id/moreFeatureFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_transactionFragment"
+            app:destination="@id/transactionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_luckWheelActivity"
+            app:destination="@id/luckWheelActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_ordersFragment"
+            app:destination="@id/ordersFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_raiseStockFragment"
+            app:destination="@id/raiseStockFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moreFeatureFragment"
+        android:name="com.e.instamarket.fragment.MoreFeatureFragment"
+        android:label="fragment_more_feature"
+        tools:layout="@layout/fragment_more_feature" >
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_apiFragment"
+            app:destination="@id/apiFragment" />
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_agentFragment"
+            app:destination="@id/agentFragment" />
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_sitesFragment"
+            app:destination="@id/sitesFragment" />
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_faqFragment"
+            app:destination="@id/faqFragment" />
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_contactUsFragment"
+            app:destination="@id/contactUsFragment" />
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_ruleFragment"
+            app:destination="@id/ruleFragment" />
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_blogFragment"
+            app:destination="@id/blogFragment" />
+        <action
+            android:id="@+id/action_moreFeatureFragment_to_makeMoneyFragment"
+            app:destination="@id/makeMoneyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.e.instamarket.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_editBankInfoFragment"
+            app:destination="@id/editBankInfoFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_editUserInfoFragment"
+            app:destination="@id/editUserInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.e.instamarket.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.e.instamarket.fragment.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enterFragment"
+        android:name="com.e.instamarket.fragment.EnterFragment"
+        android:label="fragment_enter"
+        tools:layout="@layout/fragment_enter" >
+        <action
+            android:id="@+id/action_enterFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_enterFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.e.instamarket.fragment.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.e.instamarket.fragment.CategoryFragment"
+        android:label="CategoryFragment" />
+    <fragment
+        android:id="@+id/transactionFragment"
+        android:name="com.e.instamarket.fragment.TransactionFragment"
+        android:label="fragment_transaction"
+        tools:layout="@layout/fragment_transaction" />
+    <fragment
+        android:id="@+id/apiFragment"
+        android:name="com.e.instamarket.fragment.ApiFragment"
+        android:label="fragment_api"
+        tools:layout="@layout/fragment_api" />
+    <fragment
+        android:id="@+id/agentFragment"
+        android:name="com.e.instamarket.fragment.AgentFragment"
+        android:label="fragment_agent"
+        tools:layout="@layout/fragment_agent" />
+    <activity
+        android:id="@+id/luckWheelActivity"
+        android:name="com.e.instamarket.activity.LuckWheelActivity"
+        android:label="activity_luck_wheel"
+        tools:layout="@layout/activity_luck_wheel" />
+    <fragment
+        android:id="@+id/sitesFragment"
+        android:name="com.e.instamarket.fragment.SitesFragment"
+        android:label="fragment_sites"
+        tools:layout="@layout/fragment_sites" />
+    <fragment
+        android:id="@+id/faqFragment"
+        android:name="com.e.instamarket.fragment.FaqFragment"
+        android:label="fragment_faq"
+        tools:layout="@layout/fragment_faq" />
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.e.instamarket.fragment.OrdersFragment"
+        android:label="fragment_orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.e.instamarket.fragment.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.e.instamarket.fragment.ContactUsFragment"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/ruleFragment"
+        android:name="com.e.instamarket.fragment.RuleFragment"
+        android:label="fragment_rule"
+        tools:layout="@layout/fragment_rule" />
+    <fragment
+        android:id="@+id/raiseStockFragment"
+        android:name="com.e.instamarket.fragment.RaiseStockFragment"
+        android:label="fragment_raise_stock"
+        tools:layout="@layout/fragment_raise_stock" />
+    <fragment
+        android:id="@+id/blogFragment"
+        android:name="com.e.instamarket.fragment.BlogFragment"
+        android:label="fragment_blog"
+        tools:layout="@layout/fragment_blog" />
+    <fragment
+        android:id="@+id/editBankInfoFragment"
+        android:name="com.e.instamarket.fragment.EditBankInfoFragment"
+        android:label="fragment_edit_bank_info"
+        tools:layout="@layout/fragment_edit_bank_info" />
+    <fragment
+        android:id="@+id/editUserInfoFragment"
+        android:name="com.e.instamarket.fragment.EditUserInfoFragment"
+        android:label="fragment_edit_user_info"
+        tools:layout="@layout/fragment_edit_user_info" />
+    <fragment
+        android:id="@+id/makeMoneyFragment"
+        android:name="com.e.instamarket.fragment.MakeMoneyFragment"
+        android:label="fragment_make_money"
+        tools:layout="@layout/fragment_make_money" />
+</navigation>
