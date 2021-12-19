@@ -18,11 +18,12 @@
       android:id="@+id/img_info"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:scaleType="centerCrop"
       android:layout_marginRight="16dp"
       android:background="@null"
       android:foreground="?attr/actionBarItemBackground"
-      android:minWidth="48dp"
-      android:minHeight="48dp"
+      android:minWidth="32dp"
+      android:minHeight="32dp"
       android:src="@drawable/ic_outline_info_24"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
@@ -47,8 +48,9 @@
 
     <androidx.appcompat.widget.AppCompatImageButton
       android:id="@+id/img_share"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:scaleType="centerCrop"
       android:layout_marginLeft="16dp"
       android:background="@null"
       android:foreground="?attr/actionBarItemBackground"
@@ -65,28 +67,37 @@
   </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-  <Button
+  <TextView
     android:id="@+id/btn_enter_excel"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:paddingHorizontal="20dp"
+    android:layout_marginRight="16dp"
+    android:paddingVertical="12dp"
+    android:textColor="@color/white"
     android:layout_marginTop="16dp"
-    android:layout_marginEnd="16dp"
     android:background="@drawable/bg_button_gradient"
     android:text="ورود اکسل"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
-  <Button
+
+
+
+
+  <TextView
     android:id="@+id/btn_save"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:paddingHorizontal="32dp"
+    android:paddingVertical="12dp"
     android:layout_marginStart="16dp"
+    android:textColor="@color/white"
     android:layout_marginTop="16dp"
     android:background="@drawable/bg_button_gradient"
     android:text="ثبت"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
-
 
 
 
@@ -147,7 +158,7 @@
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="16dp"
     android:text="نام خوراک"
-    android:textColor="@color/purple_200"
+    android:textColor="@color/blue"
     android:textSize="28sp"
     android:layout_marginTop="16dp"
     android:textStyle="bold"
@@ -168,7 +179,6 @@
     android:paddingHorizontal="8dp"
     android:paddingVertical="16dp"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintStart_toEndOf="@+id/edt_value_eat"
     app:layout_constraintTop_toBottomOf="@+id/txt_type_cow_category" />
 
@@ -176,15 +186,15 @@
   <androidx.appcompat.widget.AppCompatEditText
     android:id="@+id/edt_value_eat"
     android:layout_width="58dp"
-    android:layout_height="58dp"
+    android:layout_height="0dp"
     android:layout_marginHorizontal="8dp"
     android:layout_marginStart="16dp"
-    android:layout_marginTop="8dp"
     android:background="@drawable/bg_item_rv_active_step_circle"
     android:hint="حجم"
     android:inputType="number"
     android:paddingHorizontal="8dp"
     android:paddingVertical="16dp"
+    app:layout_constraintBottom_toBottomOf="@+id/edt_number_space"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/txt_type_cow_category" />
 
@@ -195,7 +205,7 @@
     android:layout_marginHorizontal="16dp"
     android:text="نام خوراک"
     android:layout_marginTop="16dp"
-    android:textColor="@color/purple_200"
+    android:textColor="@color/blue"
     android:textSize="28sp"
     android:textStyle="bold"
     app:layout_constraintEnd_toEndOf="parent"
@@ -226,7 +236,7 @@
       android:layout_marginTop="16dp"
       android:layout_marginEnd="16dp"
       android:text="خوراکی"
-      android:textColor="@color/purple_200"
+      android:textColor="@color/blue"
       android:textSize="18sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
@@ -239,7 +249,7 @@
       android:layout_marginHorizontal="16dp"
       android:layout_marginTop="16dp"
       android:text="مقدار"
-      android:textColor="@color/purple_200"
+      android:textColor="@color/blue"
       android:textSize="18sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toStartOf="@+id/txt_eat"
@@ -254,7 +264,7 @@
       android:layout_marginStart="16dp"
       android:layout_marginTop="16dp"
       android:text="قیمت به ازای هر کیلو"
-      android:textColor="@color/purple_200"
+      android:textColor="@color/blue"
       android:textSize="18sp"
       android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
@@ -321,7 +331,7 @@
     android:layout_marginTop="32dp"
     android:layout_marginEnd="16dp"
     android:text="مقدار کل خوراک"
-    android:textColor="@color/purple_200"
+    android:textColor="@color/blue"
     android:textSize="18sp"
     android:textStyle="bold"
     app:layout_constraintEnd_toEndOf="parent"
@@ -335,7 +345,7 @@
     android:layout_marginTop="32dp"
     android:layout_marginEnd="16dp"
     android:text="قیمت کل خوراک"
-    android:textColor="@color/purple_200"
+    android:textColor="@color/blue"
     android:textSize="18sp"
     android:textStyle="bold"
     app:layout_constraintBottom_toBottomOf="parent"
