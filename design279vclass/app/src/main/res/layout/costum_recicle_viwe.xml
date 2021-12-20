@@ -52,7 +52,7 @@
         android:background="@drawable/edittext_recview_white"
         android:maxLines="1"
         android:textSize="20sp"
-        android:layout_marginRight="@dimen/_12sdp"
+        android:layout_marginRight="@dimen/_9sdp"
         android:layout_marginLeft="@dimen/_4sdp"
         android:layout_marginTop="@dimen/_15sdp"
         app:layout_constraintTop_toTopOf="parent"
