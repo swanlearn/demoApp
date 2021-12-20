@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/_67sdp">
-    <EditText
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/_34sdp">
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/text_r1"
         android:layout_width="0dp"
         android:layout_height="@dimen/_34sdp"
@@ -16,9 +17,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/text_r2"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"></EditText>
+        tools:ignore="MissingConstraints"></androidx.appcompat.widget.AppCompatEditText>
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/text_r2"
         android:layout_width="@dimen/_50sdp"
         android:layout_height="@dimen/_34sdp"
@@ -30,7 +31,7 @@
         app:layout_constraintStart_toEndOf="@id/text_r1"
         app:layout_constraintEnd_toStartOf="@id/text_r3"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"></EditText>
+        tools:ignore="MissingConstraints"></androidx.appcompat.widget.AppCompatEditText>
     <EditText
         android:id="@+id/text_r3"
         android:layout_width="0dp"
@@ -55,8 +56,20 @@
         android:layout_marginRight="@dimen/_9sdp"
         android:layout_marginLeft="@dimen/_4sdp"
         android:layout_marginTop="@dimen/_15sdp"
+        android:text="@string/te1"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/text_r3"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"></EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/but_add"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:background="@drawable/add"
+        android:layout_marginTop="@dimen/_67sdp"
+        android:layout_marginRight="@dimen/_12sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        ></androidx.appcompat.widget.AppCompatButton>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
