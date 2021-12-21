@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_89sdp"
+    android:paddingBottom="@dimen/_89sdp"
+    android:layout_height="@dimen/_180sdp"
+    android:layout_gravity="center"
+
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="NamespaceTypo">
+    <ImageView
+        android:layout_width="@dimen/_88sdp"
+        android:layout_height="@dimen/_88sdp"
+        android:background="@drawable/more"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </ImageView>
+</FrameLayout>
