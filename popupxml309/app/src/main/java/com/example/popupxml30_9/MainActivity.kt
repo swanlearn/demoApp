@@ -14,6 +14,8 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import java.util.zip.Inflater
 
 class MainActivity : AppCompatActivity() {
@@ -58,6 +60,24 @@ class MainActivity : AppCompatActivity() {
                 dialog.dismiss()
             }
             dialog.show()
+        }
+        val but4 = findViewById<AppCompatButton>(R.id.but4)
+        but4.setOnClickListener {
+            val dialog1 = Dialog(this!!,R.style.CustomAlertDialog2)
+            dialog1.requestWindowFeature(Window.FEATURE_NO_TITLE)
+            dialog1.setCancelable(false)
+            dialog1.setContentView(R.layout.khariaran)
+            val dialogButton: AppCompatButton = dialog1.findViewById<View>(R.id.se) as AppCompatButton
+            val rv1 = findViewById<RecyclerView>(R.id.rv1)
+            var aa = arrayOf<String>("","")
+            val co  =  ContactsAdapter(aa)
+            val layoutManager = LinearLayoutManager(applicationContext)
+            rv1.adapter = co
+            rv1.layoutManager = layoutManager
+            dialogButton.setOnClickListener {
+                dialog1.dismiss()
+            }
+            dialog1.show()
         }
     }
 }
