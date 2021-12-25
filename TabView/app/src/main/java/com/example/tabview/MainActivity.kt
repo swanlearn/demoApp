@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         bind = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(bind.root)
-
+        supportFragmentManager.beginTransaction().replace(R.id.frag,first_flag()).commit()
         var tabs = bind.tabs
         var first = tabs.newTab()
         first.text = "First"
