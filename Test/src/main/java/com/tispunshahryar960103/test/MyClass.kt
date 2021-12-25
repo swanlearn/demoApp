@@ -3,8 +3,9 @@ package com.tispunshahryar960103.test
 fun main() {
 
     //fibonacci(10)
-   // println( factorial(5))
-    productTable(5)
+    // println( factorial(5))
+    // productTable(10)
+    printPrimeNumbers(15)
 
 
 }
@@ -13,13 +14,13 @@ fun main() {
  * Product Table
  */
 
-fun productTable(num:Int){
+fun productTable(num: Int) {
 
 
-    for (i in 1..num){
-        for (j in 1..num){
+    for (i in 1..num) {
+        for (j in 1..num) {
 
-            print(" ${i*j} ")
+            print(" ${i * j} ")
 
         }
         println()
@@ -32,19 +33,27 @@ fun productTable(num:Int){
  */
 fun printPrimeNumbers(num: Int) {
 
-    val numList= mutableListOf<Int>()
+    val numList = mutableListOf<Int>()
 
-    if (num <= 1) {
-        println("Please Enter a number greater than 1")
-    } else {
-        for (i in 2 .. num) {
-           for (j in 2 until i){
-               if (i % j != 0){
-                   numList.add(i)
-               }
-           }
+    for (i in 1 .. num){
+        for (j in 2 until i){
+            if (i%j!=0){
+                numList.add(i)
+            }
         }
     }
+
+
+ /*   if (num <= 1 && num == 2) {
+        println("Please Enter a number greater than 2")
+    } else {
+        for (i in 2 until num) {
+            if (num % i == 0) {
+                numList.add(i)
+            }
+        }
+    }*/
+
 
     println("the count of prime numbers in 1 until $num is : ${numList.size} ")
 }
