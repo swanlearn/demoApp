@@ -3,9 +3,27 @@ package com.tispunshahryar960103.test
 fun main() {
 
     //fibonacci(10)
-    println( factorial(5))
+   // println( factorial(5))
+    productTable(5)
 
 
+}
+
+/**
+ * Product Table
+ */
+
+fun productTable(num:Int){
+
+
+    for (i in 1..num){
+        for (j in 1..num){
+
+            print(" ${i*j} ")
+
+        }
+        println()
+    }
 }
 
 
@@ -81,6 +99,8 @@ fun factorial(num: Long): Long {
 
 
 }
+
+
 
 
 
