@@ -160,7 +160,7 @@
         android:layout_width="0dp"
         android:layout_height="69dp"
         android:background="@drawable/settingbtn"
-        android:text="welcom"
+        android:text="welcome"
         android:textAllCaps="false"
         android:textColor="@color/blue_1"
         android:textSize="14sp"
