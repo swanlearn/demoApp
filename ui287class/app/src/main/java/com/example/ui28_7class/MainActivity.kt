@@ -9,10 +9,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val btn = findViewById<MotionButton>(R.id.but1)
-        btn.setOnClickListener {
-            val intel = Intent(this@MainActivity,TimeAAvtivity::class.java)
-            startActivity(intel)
-        }
+        supportFragmentManager.beginTransaction().replace(R.id.frag_view,mainfrag()).commit()
     }
 }
