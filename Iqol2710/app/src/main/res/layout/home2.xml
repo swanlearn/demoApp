@@ -172,5 +172,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent="0.8641"
         tools:ignore="MissingConstraints" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pepbtn"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:background="@drawable/peoplebtn"
+        android:text="People"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/setbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.0405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.8641"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,7 @@
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/home2_btns.xml" value="0.2822265625" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.21510416666666668" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/peoplebtn.xml" value="0.1" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/profilebtn.xml" value="0.21510416666666668" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/progerrsbar.xml" value="0.21510416666666668" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/prosesbar.xml" value="0.109375" />
@@ -23,8 +24,10 @@
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/viwe_btn.xml" value="0.21510416666666668" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/activity_main.xml" value="0.19895833333333332" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/chaneprofile.xml" value="0.25" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/custom_recycleview.xml" value="0.1" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/home.xml" value="0.44587155963302755" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/home2.xml" value="0.22" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/people.xml" value="0.1" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/report.xml" value="0.22" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/result.xml" value="0.24826629680998613" />
         <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/wlcome.xml" value="0.22" />

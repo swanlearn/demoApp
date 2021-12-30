@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         val but2 = nav_view.findViewById<AppCompatButton>(R.id.reportbtn)
         val but3 = nav_view.findViewById<AppCompatButton>(R.id.secbtn)
         val but4 = nav_view.findViewById<AppCompatButton>(R.id.setbtn)
+        val but5 = nav_view.findViewById<AppCompatButton>(R.id.pepbtn)
         but1.setOnClickListener {
             supportFragmentManager.beginTransaction().replace(R.id.frag_view,changeprofile_frag()).commit()
         }
@@ -27,6 +28,9 @@ class MainActivity : AppCompatActivity() {
         }
         but3.setOnClickListener {
             supportFragmentManager.beginTransaction().replace(R.id.frag_view,ResultFrag()).commit()
+        }
+        but5.setOnClickListener {
+            supportFragmentManager.beginTransaction().replace(R.id.frag_view,PeopleFrag()).commit()
         }
     }
 }
