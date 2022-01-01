@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/actionbar.xml" value="0.109375" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/back_btn.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/coross_but.xml" value="0.109375" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/edittext.xml" value="0.109375" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/history.xml" value="0.109375" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/history_but.xml" value="0.109375" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/home2_btns.xml" value="0.2822265625" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/peoplebtn.xml" value="0.1" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/profilebtn.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/progerrsbar.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/prosesbar.xml" value="0.109375" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/reportbtn.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/secbtn.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/settingbtn.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/topbackgroun.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/drawable/viwe_btn.xml" value="0.21510416666666668" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/activity_main.xml" value="0.19895833333333332" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/chaneprofile.xml" value="0.25" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/custom_recycleview.xml" value="0.1" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/home.xml" value="0.14" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/home2.xml" value="0.20146520146520147" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/people.xml" value="0.1" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/report.xml" value="0.22" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/result.xml" value="0.24826629680998613" />
+        <entry key="..\:/Projects/github/Iqol2710/app/src/main/res/layout/wlcome.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

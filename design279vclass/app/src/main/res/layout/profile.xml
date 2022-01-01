@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/_90sdp"/>
+
+
+    <androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_103sdp"
+        android:background="@drawable/actionbar"
+        app:layout_constraintTop_toTopOf="parent"></androidx.appcompat.widget.Toolbar>
+
+    <ImageButton
+        android:layout_width="@dimen/_27sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginLeft="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_26sdp"
+        android:text="پروفایل"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:layout_width="@dimen/_33sdp"
+        android:layout_height="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_37sdp"
+        android:layout_marginRight="@dimen/_26sdp"
+        android:background="@drawable/info"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="i"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actionbar"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="۰dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/exit"
+                android:layout_width="@dimen/_97sdp"
+                android:layout_height="@dimen/_39sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/profile_exit_but_background">
+
+                <TextView
+                    android:layout_width="@dimen/_62sdp"
+                    android:layout_height="@dimen/_39sdp"
+                    android:paddingLeft="@dimen/_18sdp"
+                    android:paddingTop="@dimen/_7sdp"
+                    android:text="خروج"
+                    android:textAlignment="viewStart"
+                    android:textColor="#366796"
+                    android:textSize="@dimen/_17sdp"
+                    tools:ignore="MissingConstraints"></TextView>
+
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/exit"
+                    tools:ignore="MissingConstraints"></ImageView>
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_marginStart="10dp"
+
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/edittext_profile"
+                android:hint="نام"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:paddingRight="@dimen/_22sdp"
+                android:textColorHint="#366796"
+                android:textSize="@dimen/_26sdp"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/edittext_profile"
+                android:hint="ایمیل"
+                android:paddingRight="@dimen/_22sdp"
+                android:textColorHint="#366796"
+                android:textSize="@dimen/_26sdp"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/edittext_profile"
+                android:hint="شماره تلفن"
+                android:paddingRight="@dimen/_22sdp"
+                android:textColorHint="#366796"
+                android:textSize="@dimen/_26sdp"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/edittext_profile"
+                android:hint="رمز جدید"
+                android:paddingRight="@dimen/_22sdp"
+                android:textColorHint="#366796"
+                android:textSize="@dimen/_26sdp"></EditText>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                xmlns:app = "http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:layout_marginEnd="@dimen/_10sdp">
+
+                <Spinner
+                    android:id="@+id/spiner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/spiner"
+                    android:paddingRight="@dimen/_26sdp"
+                    app:layout_constraintEnd_toStartOf="@id/textviwe1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:prompt="@string/spiner1"
+                    android:gravity="right"
+                    tools:ignore="MissingConstraints"></Spinner>
+
+                <TextView
+                    android:id="@+id/textviwe1"
+                    android:layout_width="80dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="0dp"
+                    android:text="منطقه"
+                    android:textColor="#366796"
+                    android:textSize="@dimen/_26sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints"></TextView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/edittext_profile"
+                android:hint="رمز جدید"
+                android:paddingRight="@dimen/_22sdp"
+                android:textColorHint="#366796"
+                android:textSize="@dimen/_26sdp"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/edittext_profile"
+                android:hint="ادرس"
+                android:paddingRight="@dimen/_13sdp"
+                android:paddingBottom="85dp"
+                android:textColorHint="#366796"
+                android:textSize="@dimen/_26sdp"></EditText>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_77sdp"
+                android:id="@+id/con1"
+                android:layout_marginTop="@dimen/_161sdp">
+                <TextView
+                    android:id="@+id/te11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"
+                    app:layout_constraintTop_toTopOf="@id/con1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="تمام مالکیت مادی و معنوی این اپ متعلق به"
+                    tools:ignore="MissingConstraints"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"
+                    app:layout_constraintTop_toTopOf="@id/con1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="شرکت                              است"
+                    tools:ignore="MissingConstraints"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"
+                    app:layout_constraintTop_toTopOf="@id/con1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:textColor="#1E3F6B"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="پیشگامان سپند البرز"
+                    tools:ignore="MissingConstraints"></TextView>
+                <TextView
+                    android:id="@+id/te1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"
+                    app:layout_constraintTop_toTopOf="@id/con1"
+                    app:layout_constraintEnd_toStartOf="@id/te2"
+                    app:layout_constraintStart_toStartOf="@id/te11"
+                    android:layout_marginTop="@dimen/_43sdp"
+                    android:textColor="#1E3F6B"
+                    android:textSize="@dimen/_13sdp"
+                    android:text="Swantech.company"
+                    tools:ignore="MissingConstraints"></TextView>
+                <TextView
+                    android:id="@+id/te2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_11sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    app:layout_constraintTop_toTopOf="@id/con1"
+                    app:layout_constraintEnd_toEndOf="@id/te11"
+                    app:layout_constraintStart_toEndOf="@id/te1"
+                    android:layout_marginTop="@dimen/_43sdp"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_13sdp"
+                    android:text="توسعه این اپ توسط شرکت "
+                    tools:ignore="MissingConstraints"></TextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

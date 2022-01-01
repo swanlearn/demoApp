@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_103sdp"
+        android:background="@drawable/actionbar"
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.appcompat.widget.Toolbar>
+    <ImageButton
+        android:layout_width="@dimen/_27sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginLeft="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        ></ImageButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ثبت کنسانتره"
+        android:textSize="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_26sdp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        ></TextView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/_33sdp"
+        android:layout_height="@dimen/_33sdp"
+        android:background="@drawable/info"
+        android:text="i"
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_37sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/_103sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actionbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="@dimen/_111sdp"
+                android:layout_height="@dimen/_46sdp"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:background="@drawable/save_but"
+                android:fontFamily="@font/sahelregular"
+                android:gravity="top|center"
+                android:text="ثبت"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="@dimen/_111sdp"
+                android:layout_height="@dimen/_46sdp"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:background="@drawable/but_exel"
+                android:fontFamily="@font/sahelregular"
+                android:gravity="top|center"
+                android:text="ورود اکسل"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints"></androidx.appcompat.widget.AppCompatButton>
+
+            <EditText
+                android:id="@+id/text_c"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_88sdp"
+                android:layout_marginStart="@dimen/_11sdp"
+                android:layout_marginTop="@dimen/_73sdp"
+                android:layout_marginEnd="@dimen/_11sdp"
+                android:background="@drawable/edittext_profile"
+                android:fontFamily="@font/sahelregular"
+                android:hint="نام کنسانتره"
+                android:paddingRight="@dimen/_24sdp"
+                android:textColorHint="#366796"
+                android:textSize="@dimen/_26sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints"></EditText>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/con2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_337sdp"
+                android:layout_marginStart="@dimen/_11sdp"
+                android:layout_marginTop="@dimen/_179sdp"
+                android:layout_marginEnd="@dimen/_11sdp"
+                android:background="@drawable/edittext_profile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textrw1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_42sdp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/sahelregular"
+                    android:gravity="center"
+                    android:text="قیمت هر کیلو"
+                    android:textColor="#366796"
+                    android:textSize="@dimen/_24sdp"
+                    app:layout_constraintEnd_toStartOf="@id/textrw2"
+                    app:layout_constraintStart_toStartOf="@id/con2"
+                    app:layout_constraintTop_toTopOf="@id/con2"></TextView>
+
+                <TextView
+                    android:id="@+id/textrw2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_42sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/sahelregular"
+                    android:gravity="center"
+                    android:text="درصد"
+                    android:textColor="#366796"
+                    android:textSize="@dimen/_24sdp"
+                    app:layout_constraintEnd_toStartOf="@id/textrw3"
+                    app:layout_constraintStart_toEndOf="@id/textrw1"
+                    app:layout_constraintTop_toTopOf="@id/con2"></TextView>
+
+                <TextView
+                    android:id="@+id/textrw3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_42sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/sahelregular"
+                    android:gravity="center"
+                    android:text="مقدار"
+                    android:textColor="#366796"
+                    android:textSize="@dimen/_24sdp"
+                    app:layout_constraintEnd_toStartOf="@id/textrw4"
+                    app:layout_constraintStart_toEndOf="@id/textrw2"
+                    app:layout_constraintTop_toTopOf="@id/con2"
+                    tools:ignore="MissingConstraints"></TextView>
+
+                <TextView
+                    android:id="@+id/textrw4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_42sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="24dp"
+                    android:fontFamily="@font/sahelregular"
+                    android:gravity="center"
+                    android:text="خوراکی"
+                    android:textColor="#366796"
+                    android:textSize="@dimen/_24sdp"
+                    app:layout_constraintEnd_toEndOf="@id/con2"
+                    app:layout_constraintStart_toEndOf="@id/textrw3"
+                    app:layout_constraintTop_toTopOf="@id/con2"
+                    tools:ignore="DuplicateIds,MissingConstraints"></TextView>
+                <View android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#707070"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    app:layout_constraintTop_toTopOf="@id/con2"
+                    tools:ignore="MissingConstraints" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcviwe"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/con2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/con2">
+                </androidx.recyclerview.widget.RecyclerView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_124sdp"
+                android:layout_marginStart="@dimen/_11sdp"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:layout_marginEnd="@dimen/_11sdp"
+                android:layout_marginBottom="@dimen/_27sdp"
+                android:background="@drawable/but_exel"
+                android:fontFamily="@font/sahelregular"
+                android:paddingRight="@dimen/_11sdp"
+                android:text="قیمت هر کیلو کنسانتره:"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/con2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

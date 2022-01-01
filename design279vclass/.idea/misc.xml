@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/actionbar.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/back.xml" value="0.21614583333333334" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/but_exel.xml" value="0.109375" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/button.xml" value="0.21614583333333334" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/edittext_profile.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/edittext_recview_white.xml" value="0.10729166666666666" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/edittext_recviwe_gray.xml" value="0.10729166666666666" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/exit.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/ic_back.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/ic_launcher_background.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/info.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/profile_exit_but_background.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/rewie.xml" value="0.10729166666666666" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/save_but.xml" value="0.109375" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/spiner.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/viwe.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/drawable/viwe_rv.xml" value="0.10729166666666666" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/font/sahel.xml" value="0.1234375" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/layout/acrionbar.xml" value="0.1" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/layout/butrew.xml" value="0.13541666666666666" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/layout/costum_recicle_viwe.xml" value="0.1" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/layout/home2.xml" value="0.23228346456692914" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/layout/myspiner.xml" value="0.1" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/layout/profile.xml" value="0.183206106870229" />
+        <entry key="..\:/Projects/github/design279vclass/app/src/main/res/layout/rreport2.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
