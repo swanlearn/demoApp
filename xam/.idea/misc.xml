@@ -5,15 +5,18 @@
       <map>
         <entry key="..\:/Projects/github/xam/app/src/main/res/drawable/but1.xml" value="0.10989583333333333" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/drawable/edittext1.xml" value="0.10989583333333333" />
+        <entry key="..\:/Projects/github/xam/app/src/main/res/drawable/rct.xml" value="0.13651315789473684" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/activity_main.xml" value="0.11730072463768115" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/archive.xml" value="0.1" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/engin.xml" value="0.1" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/home.xml" value="0.1" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/manager.xml" value="0.1" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/output.xml" value="0.1" />
+        <entry key="..\:/Projects/github/xam/app/src/main/res/layout/paint.xml" value="0.1" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/profile.xml" value="0.1" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/rc_item.xml" value="0.1" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/report.xml" value="0.1" />
+        <entry key="..\:/Projects/github/xam/app/src/main/res/layout/reports.xml" value="0.1" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/time.xml" value="0.1" />
         <entry key="..\:/Projects/github/xam/app/src/main/res/layout/user.xml" value="0.11242603550295859" />
       </map>

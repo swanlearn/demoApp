@@ -27,11 +27,12 @@ class CustumAdapter(val datal:ArrayList<datas>):RecyclerView.Adapter<CustumAdapt
         return viewHolder(view)
     }
     override fun onBindViewHolder(holder: viewHolder, position: Int) {
-        holder.text1.text =datal[position].date.toString()
+        holder.text1.text =datal[position].name.toString()
+        holder.text2.text =datal[position].date.toString()
+        holder.text3.text =datal[position].time.toString()
+        holder.text4.text =datal[position].user.toString()
     }
     override fun getItemCount()= datal.size
 }
 
 
-
-data class datas(var name:String,val date:String,val time:String,val user:String)

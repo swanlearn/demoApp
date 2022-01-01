@@ -23,6 +23,7 @@ class HomeFrag:Fragment() {
         val btn_over = view.findViewById<ImageButton>(R.id.btn4)
         val btn_profile = view.findViewById<ImageButton>(R.id.btn9)
         val  btn4 = view.findViewById<ImageButton>(R.id.btn6)
+        val report =view.findViewById<ImageButton>(R.id.btn5)
         btn_engin.setOnClickListener {
 
             requireActivity().supportFragmentManager.beginTransaction()
@@ -40,6 +41,11 @@ class HomeFrag:Fragment() {
         btn4.setOnClickListener {
             requireActivity().supportFragmentManager.beginTransaction()
                 .replace(R.id.frag_view, archive()).addToBackStack("archive").commit()
+        }
+        report.setOnClickListener{
+            requireActivity().supportFragmentManager.beginTransaction()
+                .replace(R.id.frag_view, ReportFrag()).addToBackStack("report").commit()
+
         }
 
         return view

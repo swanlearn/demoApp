@@ -36,7 +36,3 @@ class EnginFrag:Fragment() {
         return view
     }
 }
-
-private fun Any.addCallback(enginFrag: EnginFrag, function: () -> Unit) {
-
-}

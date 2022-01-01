@@ -21,7 +21,13 @@ class archive:Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         bind = ArchiveBinding.inflate(layoutInflater)
-        var datal = arrayListOf<datas>(datas("ss","ss","ss","ss"),datas("ss","ss","ss","ss"))
+            var datal = arrayListOf<datas>(datas("Date : 00/05/15","Time : 22:30","Username : aliahmadi","File Name : 2015"),
+                datas("Date : 00/05/15","Time : 22:30","Username : aliahmadi","File Name : 2015"),
+                datas("Date : 00/05/15","Time : 22:30","Username : aliahmadi","File Name : 2015"),
+                datas("Date : 00/05/15","Time : 22:30","Username : aliahmadi","File Name : 2015"),
+                datas("Date : 00/05/15","Time : 22:30","Username : aliahmadi","File Name : 2015"),
+                datas("Date : 00/05/15","Time : 22:30","Username : aliahmadi","File Name : 2015"),
+                datas("Date : 00/05/15","Time : 22:30","Username : aliahmadi","File Name : 2015"),)
         bind.rcv.layoutManager = LinearLayoutManager(requireContext())
         var adpt = CustumAdapter(datal)
         bind.rcv.adapter = adpt
