@@ -13,7 +13,7 @@ import java.lang.ArithmeticException
 
 
 
-class customAdapter(private val activity: FragmentActivity, val list:ArrayList<data>,
+class customAdapter(private val activity: FragmentActivity, val list:ArrayList<data>,val model :viewmodels.glob
 ):RecyclerView.Adapter<customAdapter.viewholder>() {
     class viewholder(view: View):RecyclerView.ViewHolder(view){
         lateinit var btn:ImageButton
@@ -33,8 +33,8 @@ class customAdapter(private val activity: FragmentActivity, val list:ArrayList<d
         holder.btn.setOnClickListener {
             activity.findViewById<TabLayout>(R.id.tab_view).visibility = View.GONE
             link = list[position].text.toString()
-            linkm = link
-            activity.supportFragmentManager.beginTransaction().replace(R.id.frag_view,PlayFrag()).commit()
+            model.link.value = link
+            activity.supportFragmentManager.beginTransaction().replace(R.id.frag_view,PlayFrag()).addToBackStack("ply").commit()
         }
     }
 

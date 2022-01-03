@@ -7,6 +7,8 @@
         android:id="@+id/ref"
         android:layout_marginTop="?attr/actionBarSize"
         android:maxLines="1"
+        android:textSize="16sp"
+        android:hint="URL"
         android:layout_marginHorizontal="10dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toStartOf="@id/refb"
@@ -15,9 +17,10 @@
         android:layout_height="wrap_content"/>
     <com.google.android.material.button.MaterialButton
         android:id="@+id/refb"
-
+        android:backgroundTint="@color/blue"
         android:layout_marginEnd="10dp"
         android:text="Enter"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         app:cornerRadius="10dp"
         app:layout_constraintTop_toTopOf="@id/ref"
