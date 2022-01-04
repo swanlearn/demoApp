@@ -66,14 +66,41 @@ open class BrowserFrag():Fragment() {
                 var te = web!!.hitTestResult
                 val result = (web as WebView).hitTestResult
                 if(result.type == 7){
-                    share.history.value!!.add(data((result.extra.toString())))
+                    Thread(Runnable {
+                        var nametext =""
+                        for (i in (result.extra.toString().length-1) downTo 0){
+                            if(result.extra.toString()[i]=='/') {
+                                for (j in i+1 .. (result.extra.toString().length-1)){
+                                    nametext += result.extra.toString()[j]
+                                    if(result.extra.toString()[j]=='/')break
+                                }
+                                break
+                            }
+                        }
+                        nametext = nametext.replace("%20",".")
+                        share.history.value!!.add(data(result.extra.toString(),nametext))
+                    }).start()
                     share.link.value = result.extra.toString()
                     requireActivity().supportFragmentManager.beginTransaction().replace(R.id.frag_view,PlayFrag()).addToBackStack("ply").commit()
                 }
                 true}
         web!!.setDownloadListener(DownloadListener { url, userAgent, contentDisposition, mimetype, contentLength ->
-                share.history.value!!.add(data((url)))
-            })
+           Thread(Runnable {
+               var nametext =""
+               var uri = Uri.parse(url)
+               for (i in (uri.toString().length-1) downTo 0){
+                   if(uri.toString()[i]=='/') {
+                       for (j in i+1 .. (uri.toString().length-1)){
+                           nametext += uri.toString()[j]
+                           if(uri.toString()[j]=='/')break
+                       }
+                       break
+                   }
+               }
+               nametext = nametext.replace("%20",".")
+               share.history.value!!.add(data(url,nametext))
+           }).start()
+        })
 
         btn.setOnClickListener {
         web!!.loadUrl(text.text.toString())

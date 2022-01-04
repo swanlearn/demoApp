@@ -1,5 +1,6 @@
 package com.example.web_browser
 
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -29,8 +30,22 @@ class startTab():Fragment() {
         btn.setOnClickListener {
             if(text.text!!.isNotEmpty()){
                 share.link.value = text.text.toString()
+                val uri = Uri.parse(text.text.toString())
+                Thread(Runnable {
+                    var nametext =""
+                    for (i in (uri.toString().length-1) downTo 0){
+                        if(uri.toString()[i]=='/') {
+                            for (j in i+1 .. (uri.toString().length-1)){
+                                nametext += uri.toString()[j]
+                                if(uri.toString()[j]=='/')break
+                            }
+                            break
+                        }
+                    }
+                    nametext = nametext.replace("%20",".")
+                    share.history.value!!.add(data(uri.toString(),nametext))
+                }).start()
                 requireActivity().supportFragmentManager.beginTransaction().replace(R.id.frag_view,PlayFrag()).addToBackStack("play").commit()
-                share.history.value!!.add(data((text.text.toString())))
             }
         }
 

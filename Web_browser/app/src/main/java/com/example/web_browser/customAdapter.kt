@@ -1,5 +1,7 @@
 package com.example.web_browser
 
+import android.net.Uri
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,7 +31,9 @@ class customAdapter(private val activity: FragmentActivity, val list:ArrayList<d
     }
 
     override fun onBindViewHolder(holder: viewholder, position: Int) {
-        holder.text.text = list[position].text.toString()
+        var text = list[position].text
+
+        holder.text.text = list[position].name
         holder.btn.setOnClickListener {
             activity.findViewById<TabLayout>(R.id.tab_view).visibility = View.GONE
             link = list[position].text.toString()
