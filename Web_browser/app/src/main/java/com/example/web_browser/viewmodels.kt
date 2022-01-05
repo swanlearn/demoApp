@@ -17,7 +17,6 @@ class viewmodels {
         val link = MutableLiveData<String>("")
         val bund = MutableLiveData<Bundle>(Bundle())
 
-
     }
     class playviemodel:ViewModel(){
         val video=MutableLiveData<VideoView>(null)
